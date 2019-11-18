@@ -8,10 +8,10 @@
 def is_in(char,string):
     for i in range(len(string)):
         if (char == string[i]):
-            print('True')
+            print(True)
             return True
     
-    print('False')
+    print(False)
     return False
     
 is_in("a","apple")
@@ -27,13 +27,21 @@ is_in("a","bullshit")
 """
 
 def is_sorted(seq):
-    for i in range(len(seq)):
+    for i in range(len(seq)-1):
         if (seq[i] > seq[i+1]):
-            print('False')
+            print(False)
             return False
     
-    print('True')
+    print(True)
     return True
 
+is_sorted([1,2,3])
+is_sorted([1,3,2])
+
+is_sorted(['a','b','c'])
+is_sorted(['a','c','b'])
+
+is_sorted('abc')
+is_sorted('bac')
 
 
