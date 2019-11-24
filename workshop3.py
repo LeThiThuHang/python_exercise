@@ -120,9 +120,9 @@ reversed(['a',1,'b',2])
 def sum(aList):
     sum = 0
     for i in aList:
-       """  this is to check if i is a number or not, any Multiply the object by zero. 
-       Any number times zero is zero. Any other result means that the object is not a number 
-       (including exceptions) """
+        """  this is to check if i is a number or not, any Multiply the object by zero. 
+        Any number times zero is zero. Any other result means that the object is not a number 
+        (including exceptions) """
         if (0 == 0*i):
             sum += i
 
